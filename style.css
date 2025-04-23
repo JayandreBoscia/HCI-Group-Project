@@ -1,0 +1,27 @@
+/* Base Styles */nbody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: #f0f0f0;
+    padding: 1rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 1rem;
+  }
