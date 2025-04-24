@@ -10,12 +10,11 @@
 - `reflections.html` – Lessons learned & next steps.
 - `style.css` – Stylesheet for all pages.
 
-## Getting Started
+## How to run the Website:
+Click the github website link below or run Html files locally
 
-1. Enable GitHub Pages on your repo (Settings → Pages → Main branch).
-2. Publish and note your URL: `https://<username>.github.io/<repo-name>`.
+**Website URL:** https://jayandreboscia.github.io/HCI-Group-Project/
 
-**Website URL:** <!-- https://username.github.io/repository-name -->
 
 ## How to Run Locally
 
