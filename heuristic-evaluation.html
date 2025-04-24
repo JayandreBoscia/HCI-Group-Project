@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heuristic Evaluation</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heuristic Evaluation — Second Chance</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body class="heuristic-page">
   <header>
-    <h1>Heuristic Evaluation</h1>
-    <!-- Include nav -->
+    <h1> Heuristic Evaluations </h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project-overview.html">Project Overview</a></li>
+        <li><a href="design-process.html">Design Process</a></li>
+        <li><a href="prototyping.html">Prototyping</a></li>
+        <li><a href="heuristic-evaluation.html" class="active">Heuristic Evaluation</a></li>
+        <li><a href="reflections.html">Reflection</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Evaluating Team</h2>
-      <!-- Name of team that evaluated -->
-    </section>
-    <section>
-      <h2>Violations & Severity Ratings</h2>
-      <!-- Table or list of heuristics broken -->
-    </section>
-    <section>
-      <h2>Revisions Made</h2>
-      <!-- Design changes based on feedback -->
-    </section>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Visibility of System Status <span class="rating">4</span></h3>
+        <p>No feedback present because no button features yet.</p>
+      </div>
+      <div class="card">
+        <h3>User Control and Freedom <span class="rating">1</span></h3>
+        <p>Add back button so that users may have an “emergency exit.”</p>
+      </div>
+      <div class="card">
+        <h3>Consistency and Standards <span class="rating">1</span></h3>
+        <p>Consistent layout, font, and color scheme, but change colors.</p>
+      </div>
+      <div class="card">
+        <h3>Error Prevention <span class="rating">4</span></h3>
+        <p>Cannot tell because there are no button features yet.</p>
+      </div>
+      <div class="card">
+        <h3>Flexibility and Efficiency of Use <span class="rating">1</span></h3>
+        <p>No distinction between novice and expert users.</p>
+      </div>
+      <div class="card">
+        <h3>Aesthetic and Minimalist Design <span class="rating">2</span></h3>
+        <p>Nice minimalistic design, the default is dark mode—consider lighter colors.</p>
+      </div>
+      <div class="card">
+        <h3>Help Users Recognize, Diagnose, and Recover from Errors <span class="rating">4</span></h3>
+        <p>None present.</p>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 <!-- Your Name --></p>
+    <p>&copy; SECOND CHANCE </p>
   </footer>
 </body>
 </html>
